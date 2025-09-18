@@ -6,7 +6,7 @@ import { WebSocketServer } from "ws";
 // =====================
 // 1. Подключение MongoDB Atlas
 // =====================
-const MONGO_URI = "твоя_строка_подключения_к_MongoDB_Atlas";
+const MONGO_URI = "mongodb+srv://konoplevlesa9_webhook:L0hC42C0yigHYa9E@cluster0.pxkxyqj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 mongoose.connect(MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true });
 
 const db = mongoose.connection;
